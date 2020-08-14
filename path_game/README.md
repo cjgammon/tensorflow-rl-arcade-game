@@ -7,18 +7,17 @@ This is a reinforcement learning example of a basic game based on [snake-dqn](ht
 yarn watch
 ```
 
-Train
+Install
 ```
 yarn
-yarn train
 ```
 
-Train with logs
+### Train with logs
 ```
 yarn train --logDir /tmp/log/name
 ```
 
-Tensorboard
+### Tensorboard setup and run
 ```
 pip install tensorboard
 tensorboard --logdir /tmp/log/name
