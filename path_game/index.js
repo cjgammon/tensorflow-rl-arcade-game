@@ -3,7 +3,7 @@ import * as tf from '@tensorflow/tfjs';
 
 import {ALL_ACTIONS, getStateTensor, FlyGame} from './game';
 
-const LOCAL_MODEL_URL = './models/batch3/100_10x10/model.json';
+const LOCAL_MODEL_URL = './dqn/model.json';
 
 
 let game;
